@@ -6,11 +6,11 @@ import fs from 'fs'
 import dotenv from 'dotenv'
 dotenv.config()
 
-const defaultOwner = '2349134457509';
+const defaultOwner = '923189492995';
 
 
 // Check for the OWNERS environment variable; if not found, use the default
-const ownervb = process.env.OWNERS || process.env.OWNER_NUMBER || '2349134457509r';  // put your number here
+const ownervb = process.env.OWNERS || process.env.OWNER_NUMBER || '923189492995';  // put your number here
 
 const ownerlist = ownervb.split(';');
 
@@ -19,13 +19,13 @@ for (let i = 0; i < ownerlist.length; i++) {
     global.owner.push([ownerlist[i], true]);
 }
 //
-global.botname = process.env.BOTNAME || 'TOJI MD';
-global.pairingNumber = process.env.BOT_NUMBER || 'your number';  // put your number here
-global.SESSION_ID = process.env.SESSION_ID || '2FBXTAZZ#8uBC9GM1qoDCEvP6Ei5D1p1Y-RwotJb0m8v84tnmIbc';  // put your session id here
+global.botname = process.env.BOTNAME || '❦ 𓆩𝗪𝗔𝗦𝗜_𝗞𝗜𝗡𝗚࿐ ☙';
+global.pairingNumber = process.env.BOT_NUMBER || '923189492995';  // put your number here
+global.SESSION_ID = process.env.SESSION_ID || 'YIA1yKxI#C0ERNeZ5CHWEiEBNSRlrbu_zTniy-B1Pfy46Hu8Ocj0';  // put your session id here
 
 global.mods = []
 global.prems = []
-global.allowed = ['923444844060', '923051391007']
+global.allowed = ['923043350457', '923439597938']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 global.keysxteammm = [
@@ -42,7 +42,7 @@ global.keysneoxrrr = ['5VC9rvNx', 'cfALv5']
 global.keysneoxr = keysneoxrrr[Math.floor(keysneoxrrr.length * Math.random())]
 global.lolkeysapi = ['GataDios']
 
-global.canal = 'https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07'
+global.canal = 'https://whatsapp.com/channel/0029VaV3nsc9Gv7VaFujMv1G'
 
 
 global.APIs = {
